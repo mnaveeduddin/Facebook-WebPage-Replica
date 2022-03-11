@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 242, 227);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.content{
+    padding: 20%;
+}

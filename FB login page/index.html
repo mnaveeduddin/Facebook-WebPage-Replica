@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <link href="./index.css" rel="stylesheet">
+    <script src="./index.js"></script>
+   
+    <head>
+        <title>Replica of facebook Login Page</title>
+    </head>
+    
+    <body>
+        <div class="flexbox-container">
+
+            <div class="flexbox-container flexbox-item-1"> 
+
+                <h1 id="fb">facebook</h1>
+                <p id="hcontent">Facebook helps you connect and share with the people in your life.</p>
+
+            </div>
+
+            <div class="flexbox-container flexbox-item-2">
+                <form class="mainfb" name="myform">
+                    <!-- action="./login.html" method="post" name="form" -->
+
+                                   
+                 <label for="email"></label> 
+                 <input id="email" type="email" name="email" placeholder="E-mail address" size="50"
+                 onkeyup="emailfunction()"  
+                 pattern="[a-z0-9._%+-]+@[a-z.-]+\.[a-z]{2,}"
+                 title="Please Enter e-mail address in correct format">
+                 <br></br>
+                
+               
+                 <label for="password"></label>
+                 <input type="password" id="password" name="password" placeholder="Password" size="50" onkeyup="pswdfunction()"
+                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                 title="*Must contain atleast one Upper case and lower case letter *One number and 8 or more characters.">
+
+                 <br></br>
+
+                 <button class="btn" type="button" id="login" onclick="loginfunction()"><b>Log In</b></button> 
+                 <br></br>
+
+                 <input type="checkbox" name="RememberMe" id="RememberMe">
+                 <label for="RememberMe">Remember Me</label>
+
+                 <a href="  " id="forgotpswrd">Forgot Password?</a>
+
+                 <br></br>
+
+                 <hr>
+
+                 <button class="create" type="button" onclick="createfunction()" > Create New Account </button>
+                 <br>
+    
+                </form>       
+            
+            </div>
+
+        </div>
+    
+    </body>
+
+</html>
